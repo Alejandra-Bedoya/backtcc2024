@@ -44,7 +44,7 @@ public class Mercancia {
     public void setId(Integer id) {
         try{
             this.mercanciaValidacion.validarId(id);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -57,7 +57,7 @@ public class Mercancia {
     public void setVolumenOcupado(Double volumenOcupado) {
         try{
             this.mercanciaValidacion.validarVolumenOcupado(volumenOcupado);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -70,7 +70,7 @@ public class Mercancia {
     public void setTipo(String tipo) {
         try{
             this.mercanciaValidacion.validarTipo(tipo);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -83,7 +83,7 @@ public class Mercancia {
     public void setPeso(Double peso) {
         try{
             this.mercanciaValidacion.validarPeso(peso);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -96,7 +96,7 @@ public class Mercancia {
     public void setDescripcion(String descripcion) {
         try{
             this.mercanciaValidacion.validarDescripcion(descripcion);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -109,7 +109,7 @@ public class Mercancia {
     public void setAvaluo(Integer avaluo) {
         try{
             this.mercanciaValidacion.validarAvaluo(avaluo);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -122,7 +122,7 @@ public class Mercancia {
     public void setDireccionRemitente(String direccionRemitente) {
         try{
             this.mercanciaValidacion.validarDireccionRemitente(direccionRemitente);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -135,7 +135,7 @@ public class Mercancia {
     public void setDireccionDestinatario(String direccionDestinatario) {
         try{
             this.mercanciaValidacion.validarDireccionDestinatario(direccionDestinatario);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
