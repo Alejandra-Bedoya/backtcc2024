@@ -45,6 +45,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarId(id);
             System.out.println("validación exitosa");
+            this.id = id;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -58,6 +59,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarVolumenOcupado(volumenOcupado);
             System.out.println("validación exitosa");
+            this.volumenOcupado = volumenOcupado;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -71,6 +73,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarTipo(tipo);
             System.out.println("validación exitosa");
+            this.tipo = tipo;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -84,6 +87,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarPeso(peso);
             System.out.println("validación exitosa");
+            this.peso = peso;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -97,6 +101,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarDescripcion(descripcion);
             System.out.println("validación exitosa");
+            this.descripcion = descripcion;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -110,6 +115,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarAvaluo(avaluo);
             System.out.println("validación exitosa");
+            this.avaluo = avaluo;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -123,6 +129,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarDireccionRemitente(direccionRemitente);
             System.out.println("validación exitosa");
+            this.direccionRemitente = direccionRemitente;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -136,6 +143,7 @@ public class Mercancia {
         try{
             this.mercanciaValidacion.validarDireccionDestinatario(direccionDestinatario);
             System.out.println("validación exitosa");
+            this.direccionDestinatario = direccionDestinatario;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }

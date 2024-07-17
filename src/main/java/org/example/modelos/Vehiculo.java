@@ -63,7 +63,8 @@ public class Vehiculo {
     public void setId(Integer id) {
         try{
             this.vehiculoValidacion.validarId(id);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.id = id;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -76,7 +77,8 @@ public class Vehiculo {
     public void setMarca(String marca) {
         try{
             this.vehiculoValidacion.validarMarca(marca);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.marca = marca;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -90,6 +92,7 @@ public class Vehiculo {
         try {
             // Validar el formato del modelo utilizando VehiculoValidacion
             this.vehiculoValidacion.validarModelo(modelo);
+            System.out.println("validación exitosa");
             this.modelo = modelo;
         } catch (Exception error) {
             System.out.println(error.getMessage());
@@ -104,7 +107,8 @@ public class Vehiculo {
     public void setKilometraje(Double kilometraje) {
         try{
             this.vehiculoValidacion.validarkilometraje(kilometraje);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.kilometraje = kilometraje;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -117,7 +121,8 @@ public class Vehiculo {
     public void setColor(String color) {
         try{
             this.vehiculoValidacion.validarColor(color);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.color = color;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -130,7 +135,8 @@ public class Vehiculo {
     public void setDescripcion(String descripcion) {
         try{
             this.vehiculoValidacion.validarDescripcion(descripcion);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.descripcion = descripcion;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -143,7 +149,8 @@ public class Vehiculo {
     public void setTipo(String tipo) {
         try{
             this.vehiculoValidacion.validarTipo(tipo);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.tipo = tipo;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -156,7 +163,8 @@ public class Vehiculo {
     public void setAutonomia(Integer autonomia) {
         try{
             this.vehiculoValidacion.validarAutonomia(autonomia);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.autonomia = autonomia;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -169,7 +177,8 @@ public class Vehiculo {
     public void setCapacidadCarga(Double capacidadCarga) {
         try{
             this.vehiculoValidacion.validarCapacidadCarga(capacidadCarga);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.capacidadCarga = capacidadCarga;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
@@ -182,7 +191,8 @@ public class Vehiculo {
     public void setAvaluo(Integer avaluo) {
         try{
             this.vehiculoValidacion.validarAvaluo(avaluo);
-            System.out.println("todo bien agonia");
+            System.out.println("validación exitosa");
+            this.avaluo = avaluo;
         }catch(Exception error){
             System.out.println(error.getMessage());
         }
